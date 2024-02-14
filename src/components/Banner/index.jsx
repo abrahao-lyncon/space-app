@@ -1,6 +1,6 @@
 
 import { styled } from "styled-components"
-import BackgroundImage from '/src/assets/banner.png'
+import backgroundImage from '/src/assets/banner.png'
 
 const FigureEstilizada = styled.figure`
     background-image: ${props => `url(${props.$backgroundImage})`};
